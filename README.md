@@ -1,7 +1,3 @@
-Below is an example README.md file that you can use for your GitHub repository. It details the purpose of the program, its dependencies, setup instructions, and how to run the fine-tuning process. You can adjust any sections to better fit any additional requirements or environment specifics.
-
----
-
 # Gemma Hindi Fine-tuning
 
 This repository contains a script for fine-tuning the [Google Gemma 3-1B IT](https://huggingface.co/google/gemma-3-1b-it) causal language model on a bilingual English-Hindi dataset. The fine-tuning leverages [LoRA](https://arxiv.org/abs/2106.09685) for efficient training and uses Hugging Face's `transformers`, `datasets`, and `peft` libraries.
